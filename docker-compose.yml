@@ -6,4 +6,4 @@ services:
     build: ./filescanner
     volumes:
       - ./filescanner:/usr/app/
-    command: ./local_test.sh
+    command: bash local_test.sh

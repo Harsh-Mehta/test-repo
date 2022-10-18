@@ -4,4 +4,4 @@ set -euo pipefail
 
 readonly BUCKET_DOMAIN='https://ce-codechallenge.s3.eu-west-2.amazonaws.com'
 
-./scan.py "${BUCKET_DOMAIN}"/2.txt "${BUCKET_DOMAIN}"/1.txt
+python scan.py "${BUCKET_DOMAIN}"/2.txt "${BUCKET_DOMAIN}"/1.txt
